@@ -175,20 +175,96 @@
 // } 
 // console.log(max);
 
-const store = [
-    {
-        product:'laptop',
-        value:1000,
-        count:3
-    }, {
-        product:'desktop',
-        value:2000,
-        count:6
-    }, {
-        product:'Asus',
-        value:4000,
-        count:3
-    }
-]
-const totalValue = store.reduce((acc,item)=> acc + item.value * item.count,0);
-console.log(totalValue)
+// const store = [
+//     {
+//         product:'laptop',
+//         value:1000,
+//         count:3
+//     }, {
+//         product:'desktop',
+//         value:2000,
+//         count:6
+//     }, {
+//         product:'Asus',
+//         value:4000,
+//         count:3
+//     }
+// ]
+// const totalValue = store.reduce((acc,item)=> acc + item.value * item.count,0);
+// console.log(totalValue)
+                                 /// SLICE METHOD //
+  
+//    const numbers =[1,2,3,4,5]
+// //    const num2 = numbers.slice(1,4)
+// const num2 = numbers.slice(-5)
+//    console.log(num2);  
+//    console.log(numbers);
+
+
+// const participants = ['Alice','Patrick','Malvina','Johanna'];
+// const winners = participants.slice(0,3)
+// console.log(winners);
+                           //SPLICE METHOD //
+    // const numbers = [1,2,3,4,5,6];
+    // const deleted = numbers.splice(1,3)
+    //const deleted = numbers.splice(1,3,6,7,8)
+    // console.log(deleted);                       
+                                   
+                                // SORT METHOD //
+    // const names = ['alice','citny','bear','emelia','anna']
+    // names.sort()
+    // console.log(names) 
+    
+    // const numbers = [12,25,83,1,3,5,64,9,7,4]
+    // numbers.sort(comapreFunction)
+    // console.log(numbers);
+
+    // function comapreFunction(a,b){
+    //     return a - b;
+    // }
+
+    // const store = [
+    //         {
+    //             product:'laptop',
+    //             value:1000,
+    //             count:3
+    //         }, {
+    //             product:'desktop',
+    //             value:2000,
+    //             count:6
+    //         }, {
+    //             product:'Asus',
+    //             value:4000,
+    //             count:3
+    //         }
+    //     ];
+    //     store.sort((a,b)=>{
+    //         return a.price - b.price
+    //     })
+    //     console.log(store);
+
+                                       // CONCAT METHOD //
+    //   const a = [1,2,3];
+    //   const b = [4,5,6];
+    //   const c = [7,8,9];
+    //   const d = a.concat(b,c)
+    //   const e = a.concat(1,2,d)
+    //   console.log(d)   
+    //   console.log(e);    
+    
+                                     // FILL METHOD //
+    
+//    const numbers = [1,2,3,4,5];
+//    numbers.fill(0,2,4);
+//    console.log(numbers);    
+   
+//    function fillArray(n){
+//     return Array(n).fill(0).map((_,idx) => idx + 1)
+//    }
+//    console.log(fillArray(20));
+
+                              // INCLUDES METHOD /
+
+//    const fruits = ['orange','ananas','banana','apple'];
+//    const c = fruits.includes('apple');
+//    console.log(c);                           
