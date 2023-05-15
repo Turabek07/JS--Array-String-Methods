@@ -268,3 +268,47 @@
 //    const fruits = ['orange','ananas','banana','apple'];
 //    const c = fruits.includes('apple');
 //    console.log(c);                           
+
+
+                              //JOIN METHOD //
+//    const countries = ['Uzbekistan','India','Afganistan'];
+//    const res = countries.join('-');
+//    console.log(res);                           
+
+                             // REVERSE METHOD //
+//    const numbers = [1,2,3,4,5];
+// //    const newArr = numbers.concat().reverse();
+//    const newArr = [...numbers].reverse();
+//    console.log(newArr);
+//    console.log(numbers);    
+
+// const str = ['Coding is fun! '];
+// const res = str
+// .split('')
+// .reverse()
+// .join('');
+// console.log(res);
+
+                            // PUSH METHOD //
+                                             
+// const numbers =[1,2,3,4]
+// numbers.push(5,6,7)
+// console.log(numbers);
+
+                          // POP METHOD
+// const num = [1,2,3]
+// const num1 = num.pop()
+// console.log(num1);
+
+                         // UNSHIFT METHOD //
+// const num = [1,2,3,4]
+// num.unshift(0)
+// console.log(num);
+ 
+                        // SHIFT METHOD //
+// const num = [1,2,3];
+// num.shift();
+// console.log(num);
+
+                      // INDEXOF METHOD //
+                      
