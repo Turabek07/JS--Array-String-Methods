@@ -311,4 +311,117 @@
 // console.log(num);
 
                       // INDEXOF METHOD //
-                      
+//  const strings = ['Ali','Turabek','magdan','ganisher','Turabek'];
+//  console.log(strings.indexOf('Turabek'))                     
+//  console.log(strings.lastIndexOf('Turabek'));
+
+                       // EVERY METHOD //
+// const numbers =[1,2,3,4,5,6,7,8,-11]
+// const res = numbers.every((item)=> item > 0)
+// console.log(res);
+
+// const personas = [
+//     {
+//         name:'Florin'
+//     },
+//     {
+//         name:'Florin'
+//     },
+//     {
+//         name:'Florin'
+//     },
+//     {
+//         name:'Florin'
+//     }
+    
+// ]
+// const res = personas.every(person => person.name !== undefined);
+// console.log(res); 
+
+
+                            // SOME METHOD //
+// const num = [1,2,3,4,5,6]
+// const res = num.some(item => item > 7)
+// console.log(res);
+
+// const personas = [
+//     {
+//         name:'Florin',
+//         age:17
+//     },
+//     {
+//         name:'Florin',
+//         age:13
+//     },
+//     {
+//         name:'Florin',
+//         age:12
+//     },
+//     {
+//         name:'Florin',
+//         age:10
+//     }
+// ]
+// const res = personas.some(person => person.age > 18);
+// console.log(res);
+
+                      // FIND METHOD //
+//   const personas = [
+//     {
+//         name:'Florin',
+//         age:17
+//     },
+//     {
+//         name:'Florin',
+//         age:13
+//     },
+//     {
+//         name:'Florin',
+//         age:12
+//     },
+//     {
+//         name:'Florin',
+//         age:10
+//     }
+// ]     
+// const res = personas.find(personas=> personas.name === 'Florin') ;
+// console.log(res);    
+
+                      // FINDINDEX METHOD //
+// const numbers= [1,2,3,4,5,6,7];
+// const res = numbers.findIndex(findThree);
+// function findThree(value){
+//     return value === 3;
+// }
+// console.log(res);
+
+                 
+
+                              // FROM METHOD //
+
+// const str = '123456789';
+// const res = Array.from(str,mapFn);
+// function mapFn(z){
+//     return Number(z)
+// }
+// console.log(str); 
+
+// const numbers =[1,2,3,4,5,5,4,3,6,7,8];
+// const res = Array.from(new Set(numbers));
+// console.log(res)
+
+                             // ISARRAY METHOD //
+// const number = [1,2,3,4,'turabek'];
+// const str = 'turabek';
+// const num = 434;
+// console.log(Array.isArray(number))
+// console.log(Array.isArray(str));
+// console.log(Array.isArray(num));
+
+
+                             // FLAT METHOD //
+
+// const arr = [1,[2,[3,[4,[5]]]]];
+// const res = arr.flat(Infinity);
+// console.log(res);
+
