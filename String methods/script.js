@@ -266,8 +266,40 @@
         // SYNTAXES //
     // string.toLowerCase()      ------   string.toUpperCase()
     
-    const greeting = "hello WORLD";
-    let lowerS = greeting.toLowerCase()
-    let upperC = greeting.toUpperCase()
-    console.log(lowerS);
-    console.log(upperC);
+    // const greeting = "hello WORLD";
+    // let lowerS = greeting.toLowerCase()
+    // let upperC = greeting.toUpperCase()
+    // console.log(lowerS);
+    // console.log(upperC);
+
+
+                    // TOLOCALUPPERCASE()  ---   TOLOCALLOWERCASE()  METHODS //
+
+            // SYNTAXES //
+        //string.toLocalUpperCase()         ----    string.toLocalLowerCase()
+        //string.toLocalUpperCase(locale)  ----     string.tolocalLowerCase()
+// const lower = 'istanbul'
+// const upper = lower.toLocaleUpperCase('en-US')
+// const upper1 = lower.toLocaleUpperCase('tr')
+// console.log(upper)
+// console.log(upper1);;
+
+// const upper = 'ISTANBUL'
+// const lower = upper.toLocaleLowerCase('en-US')
+// const lower1 = upper.toLocaleLowerCase('tr')
+// console.log(lower)
+// console.log(lower1);
+
+
+                    // TOSTRING()  ---   VALUEOF()  METHODS //
+
+                                   //  SYNTAXES //
+                  // string.toString()   --   string.valueOf()
+
+                  
+
+                  // String.raw()  method //
+
+            // SYNTAXES //
+        // String.raw(strings,...substitution)
+        //String.raw'templateStrings'
