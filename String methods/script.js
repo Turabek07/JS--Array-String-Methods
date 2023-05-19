@@ -151,3 +151,38 @@
 // console.log(s.padEnd(10));//"abc_ _ _ _ _ _ _" it returns with 7 space 
 // console.log(s.padEnd(10,'foo'));// "abcfoofoof" <-- it returns
 // console.log(s.padEnd(10,'123456789'));// "abc1234567" <-- it returns 
+
+
+               // LOCALCOMPARE()  //
+// SYNTAXES //
+//referenceString.localCompare(compareString);
+//referenceString.localCompare(compareString, locales);
+//referenceString.localCompare(compareString, locales , options)
+
+           // SEARCH() METHOD //
+// SYNTAXES //
+//string.search(regexp)
+// let text = 'The rain in SPAIN stays mainly in the plain';
+// console.log(text.search('ain'));
+// console.log(text.search(/ain/));
+// console.log(text.search(/AIN/));
+// console.log(text.search(/AIN/i));// at the moment it searches both case on the lowerCase and upperCase and returns first find item position
+// console.log(text.search(/w/));//if item will not find it returns "-1" all the time
+
+
+           // MATCH() //
+    // SYNTAXES //
+// string.match(regexp)
+
+// let text = 'The rain in SPAIN stays mainly in the plain';
+// console.log(text.match('ain'));//hte uotput --> [
+// //     'ain',
+// //     index: 5,
+// //     input: 'The rain in SPAIN stays mainly in the plain',
+// //     groups: undefined
+// //   ]
+
+// console.log(text.match(/ain/)); // sme result as "search()" method
+// console.log(text.match(/ain/g));//it returns how many "comparestring" available inside of string
+// console.log(text.match(/ain/gi));//it returns how many "comparestring" available inside of string but both cases lowerCase and UpperCase
+// console.log(text.match(/w/));// if method failed it returns "null"
