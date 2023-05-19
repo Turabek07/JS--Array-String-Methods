@@ -182,7 +182,92 @@
 // //     groups: undefined
 // //   ]
 
-// console.log(text.match(/ain/)); // sme result as "search()" method
+// console.log(text.match(/ain/)); // same result as "search()" method
 // console.log(text.match(/ain/g));//it returns how many "comparestring" available inside of string
 // console.log(text.match(/ain/gi));//it returns how many "comparestring" available inside of string but both cases lowerCase and UpperCase
 // console.log(text.match(/w/));// if method failed it returns "null"
+
+
+       // MATCHALL() METHOD //
+
+    // SYNTAXES //
+    //string.matchAll()
+// let text = 'The rain in SPAIN stays mainly in the plain';
+// // let s = text.matchAll('ain')//it returns all matched strings inside referenceString and their position all stuff
+// // console.log(...s);
+// // let a = text.matchAll(/ain/g)////it returns all matched strings inside referenceString and their position all stuff
+// // console.log(...a);
+// let b = text.matchAll(/ain/gi)////it returns all matched strings inside referenceString and their position all stuff but both cases lowercase and upperCase
+// console.log(...b);
+// let e = text.matchAll(/w/gi)//if method failed it returns empty array [];
+
+
+        // REPLACE() METHOD //
+    // SYNTAXES //
+// string.replace(searchString,replacerString)      ---- string.replace(regexp,replacerString);
+// string.replace(searchString,replacerFunction)   -----  string.replace(regexp,replacerFunction);
+// let text = 'Mr Blue has blue car and a blue house ';
+// let res = text.replace('blue','green')
+// let res1 = text.replace('blue',(match)=>{
+//     return match.toUpperCase()
+// })
+// let res2 = text.replace(/blue/g,'green')
+// let res3 = text.replace(/blue/gi,'green')
+// let res4 = text.replace(/blue/g,(match)=>{
+//     return match.toUpperCase()
+// })
+// console.log(res);
+// console.log(res1);
+// console.log(res2);
+// console.log(res3);
+// console.log(res4);
+
+                 // REPLACEALL() METHOD //
+    // SYNTAXES //
+// string.replaceAll(searchString,replacerString)      ---- string.replaceAll(regexp,replacerString);
+// string.replaceAll(searchString,replacerFunction)   -----  string.replaceAll(regexp,replacerFunction);
+// let text = 'Mr Blue has blue car and a blue house ';
+// let res = text.replaceAll('blue','yellow')
+// let res1 = text.replaceAll('blue',(match)=>{
+//     return match.toUpperCase()
+// })
+// let res2 = text.replaceAll(/blue/g,'yellow')
+// let res3 = text.replaceAll(/blue/gi,'yellow')
+// let res4 = text.replaceAll(/blue/g,(match)=>{
+//     return match.toUpperCase()
+// })
+// console.log(res);
+// console.log(res1);
+// console.log(res2);
+// console.log(res3);
+// console.log(res4);
+
+
+                     //  CHARCODEAT()  AND  CODEPOINTAT()  METHODS //
+                                      // SYNTAXES //
+    // string.charCodeAt(position)       ----------      string.codePointAt(position)
+               //UTF-16                                     UniCode
+            // 0 AND 65535                                 0 and 65535 & > 65535
+                                 
+
+                        //  FROMCHARCODE()  AND  FROMCODEPOINT()  METHODS //
+                                      // SYNTAXES //
+    // String.fromCharCode(num)       ----------      String.fromCodePoint(num)
+    // String.fromCharCode(num,num1,...,numN)       ----------      String.fromCodePoint(num,num1,...,numN)
+
+
+                        // NORMALIZE() METHOD //
+            // SYNTAXES //
+    // string.normalize()
+    // string.normalize(form)  UNICODE NORMALIZATION FORMS : "NFS","NFD","NFKC" OR "NFKD"
+
+
+                     // TOLOWERCASE()  --- TOUPPERCASE()  METHODS //
+        // SYNTAXES //
+    // string.toLowerCase()      ------   string.toUpperCase()
+    
+    const greeting = "hello WORLD";
+    let lowerS = greeting.toLowerCase()
+    let upperC = greeting.toUpperCase()
+    console.log(lowerS);
+    console.log(upperC);
