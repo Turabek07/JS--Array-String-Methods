@@ -425,3 +425,112 @@
 // const res = arr.flat(Infinity);
 // console.log(res);
 
+
+                                //  MY SOLUTIONS TO SOME QUESTIONS BASED ON ARRAY METHODS JS //
+
+// const num = [1,2,3,4,5]
+// let square = []
+// num.forEach(function(value){
+// const squares = value * value;
+// square.push(squares)
+// })
+// console.log(square);
+
+
+// const names = ['ali','hali','mali']
+// names.forEach(function(value){
+//     console.log(value +" "+ 'Assalomu Alaykum')
+// })
+
+// const products = [
+//     {
+//         name:'Laptop',
+//         price:1200
+//     },
+//     {
+//        name:'Phone',
+//        price:3000 
+//     },
+//     {
+//         name:'Earphone',
+//         price:200
+//     }
+// ]
+// let totalPrice = 0;
+// products.forEach(function(value){
+//     totalPrice+=value.price
+// })
+// console.log(totalPrice);
+
+// const names = ['ali','hali','mali','kali'];
+// names.forEach(function(string){
+//     console.log(string.charAt(0).toUpperCase() + string.slice(1))
+// })
+
+// const num = [1,3,4,7,0,54,43,67,23,32]
+// let MaxNumber = num[0]
+// num.forEach(function(number){
+//   if(number > MaxNumber){
+//     MaxNumber = number
+//   }
+// })
+// console.log('Maximum number is: ',MaxNumber);
+
+
+// const students = [
+//     {
+//         name:'John',
+//         score:29
+//     },
+//     {
+//         name:'John',
+//         score:45
+//     },
+//     {
+//         name:'John',
+//         score:76
+//     },
+//     {
+//         name:'John',
+//         score:80
+//     },
+//     {
+//         name:'John',
+//         score:56
+//     },
+//     {
+//         name:'John',
+//         score:43
+//     },
+// ]
+
+// let totalScore = 0;
+// let totalStudents = 0;
+
+// students.forEach(function(student){
+//     totalScore += student.score;
+//     totalStudents++;
+// })
+
+// const averageScore = Math.floor(totalScore / totalStudents);
+// console.log('Average Score is :',averageScore);
+
+
+// const names = ['alids','hal','mali','kalids'];
+
+// names.forEach(function(string,index){
+//     if(string.length < 4){
+//      names.splice(index,1)
+//     }
+// })
+// console.log(names);
+
+
+// const numbers = [2,43,5,6,8,23,56,10,56,76,4,5,75];
+// let num = 0;
+// numbers.forEach(function(number){
+//     if(number > 10){
+//         num++;
+//     }
+// })
+// console.log(num);
