@@ -193,10 +193,10 @@
     // SYNTAXES //
     //string.matchAll()
 // let text = 'The rain in SPAIN stays mainly in the plain';
-// // let s = text.matchAll('ain')//it returns all matched strings inside referenceString and their position all stuff
-// // console.log(...s);
-// // let a = text.matchAll(/ain/g)////it returns all matched strings inside referenceString and their position all stuff
-// // console.log(...a);
+// let s = text.matchAll('ain')//it returns all matched strings inside referenceString and their position all stuff
+// console.log(...s);
+// let a = text.matchAll(/ain/g)////it returns all matched strings inside referenceString and their position all stuff
+// console.log(...a);
 // let b = text.matchAll(/ain/gi)////it returns all matched strings inside referenceString and their position all stuff but both cases lowercase and upperCase
 // console.log(...b);
 // let e = text.matchAll(/w/gi)//if method failed it returns empty array [];
@@ -303,3 +303,4 @@
             // SYNTAXES //
         // String.raw(strings,...substitution)
         //String.raw'templateStrings'
+        

@@ -94,9 +94,8 @@
 // } )
 // console.log(lettersLenght);
 // const numbers = [10,20,30,40,50];
-// const discountPrice = numbers.map(item=>{
-//     return item - (item / 10)
-// }) 
+// const discountPrice = numbers.map(item=> item - (item / 10)
+// ) 
 // console.log(discountPrice)
 
 
@@ -195,10 +194,11 @@
                                  /// SLICE METHOD //
   
 //    const numbers =[1,2,3,4,5]
-// //    const num2 = numbers.slice(1,4)
-// const num2 = numbers.slice(-5)
+//    const num3 = numbers.slice(1,4)
+// const num2 = numbers.slice(-Infinity)
 //    console.log(num2);  
-//    console.log(numbers);
+//    console.log(num3);
+//    console.clear()
 
 
 // const participants = ['Alice','Patrick','Malvina','Johanna'];
@@ -277,10 +277,11 @@
 
                              // REVERSE METHOD //
 //    const numbers = [1,2,3,4,5];
-// //    const newArr = numbers.concat().reverse();
+//    const newArr1 = numbers.concat().reverse();
 //    const newArr = [...numbers].reverse();
 //    console.log(newArr);
-//    console.log(numbers);    
+//    console.log(numbers);
+//    console.log(newArr1);   
 
 // const str = ['Coding is fun! '];
 // const res = str
@@ -534,3 +535,20 @@
 //     }
 // })
 // console.log(num);
+
+// const numbers = [];
+        // for(let i = 0;i<=100;i++){
+        //     numbers.push(i)
+        // }
+        // console.log(numbers);
+
+        // numbers.sort((a,b) =>{
+        //     if( a % 2 == 0 && b % 2 !==0){
+        //         return -1
+        //     }else if( a % 2 !== 0 && b % 2 ==0){
+        //         return 1
+        //     }else {
+        //         return 0;
+        //     }
+        // })
+        // console.log(numbers);

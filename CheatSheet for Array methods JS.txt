@@ -1,0 +1,79 @@
+                                                      Array methods CheatSheet:
+
+Method Name: forEach()
+Example  Update each element in an array by multiplying it by 2.
+
+const numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(function(number, index, array) {
+  array[index] = number * 2;
+});
+
+console.log(numbers);
+
+Does it mutate the source or not: The forEach() method does not mutate the source array. It only performs an operation on each element of the array without modifying it.
+
+Argument List and Meaning:
+
+callback (required): The function to execute on each element. It takes three arguments:
+currentValue: The current element being processed in the array.
+index (optional): The index of the current element being processed.
+array (optional): The array that forEach() is being applied to.
+What it returns: The forEach() method does not return anything. It performs an operation on each element of the array, but it does not produce a new array or a return value.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Method Name: map()
+
+Example 1: Double each element in an array.
+
+const numbers = [1, 2, 3, 4, 5];
+
+const doubledNumbers = numbers.map(function(number) {
+  return number * 2;
+});
+
+console.log(doubledNumbers);
+
+
+Does it mutate the source or not: The map() method does not mutate the source array. It creates a new array with the results of calling a provided function on each element of the original array.
+
+Argument List and Meaning:
+
+callback (required): The function to execute on each element. It takes three arguments:
+
+currentValue: The current element being processed in the array.
+index (optional): The index of the current element being processed.
+array (optional): The array that map() is being applied to.
+What it returns: The map() method returns a new array with the results of calling the provided function on each element of the original array.
+
+Please note that the arrow function syntax can also be used instead of traditional function syntax in the examples.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Method Name: filter()
+
+Example: Filter out even numbers from an array.
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const evenNumbers = numbers.filter(function(number) {
+  return number % 2 === 0;
+});
+
+console.log(evenNumbers);
+
+Does it mutate the source or not: The filter() method does not mutate the source array. It creates a new array containing elements that pass the specified filtering condition.
+
+Argument List and Meaning:
+
+callback (required): The function to test each element of the array. It takes three arguments:
+
+currentValue: The current element being processed in the array.
+index (optional): The index of the current element being processed.
+array (optional): The array that filter() is being applied to.
+What it returns: The filter() method returns a new array with the elements that pass the filtering condition specified by the provided function.
+
+Please note that the arrow function syntax can also be used instead of traditional function syntax in the example.
+
+
