@@ -77,3 +77,58 @@ What it returns: The filter() method returns a new array with the elements that 
 Please note that the arrow function syntax can also be used instead of traditional function syntax in the example.
 
 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Method Name: reduce()
+
+Example: Calculate the sum of all numbers in an array.
+
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce(function(accumulator, currentValue) {
+return accumulator + currentValue;
+}, 0);
+
+console.log(sum);
+
+Does it mutate the source or not: The reduce() method does not mutate the source array. It performs calculations on the elements of the array and returns a single value.
+
+Argument List and Meaning:
+
+callback (required): The function to execute on each element. It takes four arguments:
+
+accumulator: The accumulated value computed by previous iterations or the initial value provided.
+currentValue: The current element being processed in the array.
+index (optional): The index of the current element being processed.
+array (optional): The array that reduce() is being applied to.
+initialValue (optional): The initial value for the accumulator. If not provided, the first element of the array is used as the initial value.
+What it returns: The reduce() method returns a single value that results from the accumulation of values computed by the callback function.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Method Name: slice()
+
+Example: Extract a portion of an array.
+
+const fruits = ['apple', 'banana', 'orange', 'grape', 'mango'];
+
+const slicedFruits = fruits.slice(1, 4);
+
+console.log(slicedFruits);
+
+Does it mutate the source or not: The slice() method does not mutate the source array. It returns a new array containing the extracted portion of the original array.
+
+Argument List and Meaning:
+
+start (optional): The index at which to begin extraction. If not specified, slice() starts from index 0.
+end (optional): The index at which to end extraction. The extracted portion does not include the element at the end index. If not specified, slice() extracts all elements from the start index to the end of the array.
+What it returns: The slice() method returns a new array containing the extracted portion of the original array.
+
+Note: The original array is not modified. If either start or end is negative, it is treated as counting from the end of the array.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------

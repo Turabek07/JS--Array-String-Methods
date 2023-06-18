@@ -50,7 +50,7 @@
 // isArray()
 // splice()
 
-const num = [1,2,3,4,5,6,7];
-const str = 'Rim skdfokfokefe'
-console.log(num.at(0));
-console.log(str.at(0));
+// const num = [1,2,3,4,5,6,7];
+// const str = 'Rim skdfokfokefe'
+// console.log(num.at(0));
+// console.log(str.at(0));
